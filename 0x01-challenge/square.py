@@ -22,7 +22,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ Returns perimeter of the square"""
-        return (self.width * 2) + (self.height * 2)
+        return (self.width + self.height) * 2
 
     def __str__(self):
         """ str method to return str representation
