@@ -2,7 +2,7 @@
 """Module with square class"""
 
 
-class square():
+class Square():
     """ square class
         class attributes:
             - width: width of a square
@@ -33,7 +33,7 @@ class square():
 
 if __name__ == "__main__":
     """ creates an instance when executed """
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
